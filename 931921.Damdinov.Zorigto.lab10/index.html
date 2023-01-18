@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8_bin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab10</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="curtain" onclick="upCurtain()"></div>
+        <img src="image/magican.jpg" id="magican">
+        <img src="image/hat.png" id="hat">
+        <img src="image/lamp-top.png" id="lamp-top" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+        <img src="image/lamp-leg.png" id="lamp-leg" onmousedown="downSwitcher()" onmouseup="upSwitcher()" onclick="turnLight()">
+        <img src="image/lamp-switcher.png" id="lamp-switcher">
+        <div id="light" class="light__off"></div>
+        <img src="image/rabbit.png" id="rabbit" onclick="showPigeon()">
+        <img src="image/pigeon.png" id="pigeon" onclick="showRabbit()">
+     </body>
+    <script src="index.js"></script>
+</html>
